@@ -117,7 +117,7 @@ jobs:
         #         path: target/release/nix-your-shell-aarch64-linux
         #
         # will be downloaded to `linux-aarch64/nix-your-shell-aarch64-linux`.
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
 
       - name: Create release
         id: create_release
